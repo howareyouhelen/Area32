@@ -1,0 +1,106 @@
+[33mcommit d78fb8b26ed3cae813b141d9478cdff9a0061a48[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: cc72578 b0cf10e
+Author: Tegvaran Sooch <tegvaran328@gmail.com>
+Date:   Fri Feb 14 14:20:34 2020 -0800
+
+    Merge branch 'master' of https://github.com/howareyouhelen/Area32
+
+[33mcommit cc725786159b85638e42cbd713fc90e4e2717cfb[m
+Author: Tegvaran Sooch <tegvaran328@gmail.com>
+Date:   Fri Feb 14 14:19:54 2020 -0800
+
+    create conflict on purpose
+
+[33mcommit b0cf10ea98643cfc3bf71395d0cb657481389fa8[m
+Merge: da3eb20 e161044
+Author: Saga Munkhbold <sagakhuraa@gmail.com>
+Date:   Fri Feb 14 14:04:06 2020 -0800
+
+    Merged and fixed added Event browser
+
+[33mcommit da3eb20226235fbf64fbfe98ce6d101f28a7d47b[m
+Merge: 3df280c 8f7d951
+Author: Saga Munkhbold <sagakhuraa@gmail.com>
+Date:   Fri Feb 14 14:00:45 2020 -0800
+
+    Merged with helen and created event page
+
+[33mcommit e161044828c6f4feb24dc73153a4d4c4d17f8458[m
+Merge: b9198f1 1a960b0
+Author: Tegvaran Sooch <tegvaran328@gmail.com>
+Date:   Fri Feb 14 13:56:11 2020 -0800
+
+    Fixed conflict
+
+[33mcommit b9198f1b06986991feb5db524f387dbdd1a5e6e0[m
+Merge: 2e04ef0 70c67fc
+Author: Tegvaran Sooch <tegvaran328@gmail.com>
+Date:   Fri Feb 14 13:53:08 2020 -0800
+
+    Merged index and added addCalendar
+
+[33mcommit 1a960b0a95680e0828ccb69a21a345baa2715bf3[m
+Author: howareyouhelen <howareyouhelen@hotmail.com>
+Date:   Fri Feb 14 13:52:54 2020 -0800
+
+    Create README.md
+
+[33mcommit 08ddf542d6b52f3a2f1a7a6cfa9d93e6133bb387[m
+Author: Helen Lee <Helen@helensmac.wifi.bcit.ca>
+Date:   Fri Feb 14 13:49:02 2020 -0800
+
+    final fix event create link
+
+[33mcommit 70c67fcf9ddb00efa2695c4462c0736d11d69e67[m
+Author: Helen Lee <Helen@helensmac.wifi.bcit.ca>
+Date:   Fri Feb 14 13:48:12 2020 -0800
+
+    fix event create link
+
+[33mcommit 3df280cec752534011857e6d8f117b8d14c3b160[m
+Author: Saga Munkhbold <sagakhuraa@gmail.com>
+Date:   Fri Feb 14 13:45:19 2020 -0800
+
+    Saga's Eventpage and index
+
+[33mcommit 2e04ef049fc51abdff536e5ccf5725e39075c270[m
+Author: Tegvaran Sooch <tegvaran328@gmail.com>
+Date:   Fri Feb 14 13:45:18 2020 -0800
+
+    Calendar page and index
+
+[33mcommit 8f7d951d8fac3e0261364fb4a75a2682aba06024[m
+Author: Helen Lee <Helen@helensmac.wifi.bcit.ca>
+Date:   Fri Feb 14 13:43:55 2020 -0800
+
+    added name and create event page link
+
+[33mcommit dff0e26390b8b8511a73578031ce58707bb3f392[m
+Author: Helen Lee <Helen@helensmac.wifi.bcit.ca>
+Date:   Fri Feb 14 13:39:43 2020 -0800
+
+    adding eventcreate html file
+
+[33mcommit 15c99aa204342bbdd207bd977b8b0d9198d9823e[m
+Author: Helen Lee <Helen@helensmac.wifi.bcit.ca>
+Date:   Fri Feb 14 13:29:48 2020 -0800
+
+    initial modification on index.html file
+
+[33mcommit 6c7d3dde0ffd1645824da81c3575716e565e1a62[m
+Author: Tegvaran Sooch <tegvaran328@gmail.com>
+Date:   Fri Feb 14 13:20:11 2020 -0800
+
+    adding initial dummy files
+
+[33mcommit 69ed4db1f9c3ef418f386788341df406843f0879[m
+Author: howareyouhelen <howareyouhelen@hotmail.com>
+Date:   Fri Feb 14 12:54:08 2020 -0800
+
+    Delete README.md
+
+[33mcommit 90b77473b0eb0b633423b2b63251d48b25e10dcf[m
+Author: howareyouhelen <howareyouhelen@hotmail.com>
+Date:   Fri Feb 14 12:49:39 2020 -0800
+
+    Initial commit
