@@ -1,3 +1,13 @@
+
+/**
+ * Represents the event object. It stores the specified values of an event.
+ * @param {*} type the type of event 
+ * @param {*} name  name of the event as a string
+ * @param {*} date  the date it is being held at.
+ * @param {*} price  the price of teh event
+ * @param {*} description description of the event 
+ * @param {*} hostName name of the host
+ */
 function eventCard(type, name, date, price, description, hostName){
     
     this.type = type;
