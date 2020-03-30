@@ -155,3 +155,54 @@ $(document).ready(function() {
 
 
 });
+
+function createCard(image, desc, eventName, price, type, location){
+    
+    let card = document.createElement("div");
+    card.className = "card";
+    card.style.width = "250px";
+    card.style.height = "250px";
+
+    let cardImage = document.createElement("img");
+    cardImage.className = "card-img-top";
+    cardImage.src = image;
+    cardImage.alt = "Event Image";
+
+    let cardBody = document.createElement("div");
+    cardBody.className = "card-body";
+
+    let cardName = document.createElement("h5");
+    cardName.className = "card-title";
+    cardName.innerText = eventName;
+
+    let cardDesc = document.createElement("p");
+    cardDesc.className = "card-text";
+    cardDesc.innerText = desc;
+
+    let infoList = document.createElement("ul");
+    infoList.className = "list-group list- flush";
+    infoList.style.width = "100%";
+
+    let cardLocation = document.createElement("li");
+    cardLocation.className = "list-group-item";
+    cardLocation.innerText = "location:" +  location;
+
+    let cardPrice = document.createElement("li");
+    cardPrice.className = "list-group-item";
+    cardPrice.innerText = "Price :" + price;
+
+    let cardType = document.createElement("li");
+    cardType.className = "list-group-item";
+    cardType.innerText = "Type: " + type;
+
+    document.body.appendChild(card);
+    card.appendChild(cardImage);
+    card.appendChild(cardBody);
+    card.appendChild(cardBody);
+    cardBody.appendChild(cardName);
+    cardBody.appendChild(cardDesc);
+    cardBody.appendChild(infoList);
+    infoList.appendChild(cardLocation);
+    infoList.appendChild(cardPrice);
+    infoList.appendChild(cardType);
+}
