@@ -137,11 +137,12 @@ $(document).ready(function() {
                             window.open("", "_self");
                         } 
                     resetForm();
+                        });
                     });
-                });
-            }
-        );
+                }
+            );
 
+        });
     });
     // UPLOAD ENDS HERE
 // <!----------------------------------Validation and uploading of Event Creation Ends Here ------------------------------------>
@@ -149,6 +150,7 @@ $(document).ready(function() {
         $("#main-form")[0].reset();
         $("#upload-progress").html("Completed");
     }
-});
+
+
 
 });
