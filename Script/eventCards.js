@@ -120,7 +120,8 @@ $(document).ready(function() {
                         "eventdate": eventdate,
                         "location": location,
                         "uid": user.uid,
-                        "name": userName,
+                        "counter": 1000 - counter,
+                        "userName": userName,
                         "time": time.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', hour12: true}),
                         "date":time.toLocaleString('en-US', options),
                     };
