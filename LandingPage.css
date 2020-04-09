@@ -1,0 +1,27 @@
+div.card-body{
+    font-size: 30px;
+    color: black;
+}
+#img{
+    width: 100%;
+    height: 195px;
+    position: relative;
+}
+#des{
+    font-size: 20px;
+}
+#navTop{
+    position: relative;
+}
+button{
+    position: relative;
+}
+#navText{
+    position: relative;
+}
+#Main{
+    position: relative;
+}
+#ContainerLanding{
+    position: fixed;
+}

@@ -1,0 +1,80 @@
+#jhonny {
+    /* The image used */
+    position: relative;
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 10%;
+    width: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+  
+  }
+  
+  /* Position text in the middle of the page/image */
+  #containerlanding {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 0.2vh solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    z-index: 2;
+    width: 80%;
+    height: 80%;
+    padding: 2vh;
+    text-align: center;
+  }
+  
+  #containerlogo {
+    text-align: center;
+  }
+  
+  #landinglogo {
+    text-align: center;
+    display: block;
+  }
+  
+  #logo {
+    position: relative;
+    background-color: white;
+    left: 50%;
+    width: 90%;
+    height: 80%;
+  }
+  
+  
+  .catogary {
+    position: relative;
+    height: 60vh;
+    width: 70vh;
+    padding-bottom: 10px;
+  }
+  .jumbotron{
+    position: absolute;
+    padding: 20px;
+  }
+  
+  #navTop {
+    background-color: #581845;
+    color: #ffc300;
+  }
+  
+  .navText{
+    color: #ffc300;
+    margin-right: 2vh;
+    margin-left: 2vh;
+    font-size: large;
+    border-radius: 0.5vh;
+    padding: 1.5vh;
+    background-color: #C70039;
+  }
