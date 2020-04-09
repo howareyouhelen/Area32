@@ -1,0 +1,20 @@
+#navTop {
+    background-color: #5c1948;
+    color: #ffc300;
+  }
+  
+  .navText{
+    color: #ffc300;
+    margin-right: 2vh;
+    margin-left: 2vh;
+    font-size: large;
+    border-radius: 0.5vh;
+    padding: 1.5vh;
+    background-color: #C70039;
+  }
+#form{
+    background-color: #900c3f;
+}
+.form-group{
+    font-size: 20px;
+}
