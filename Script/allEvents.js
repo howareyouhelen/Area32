@@ -20,10 +20,10 @@ $(document).ready(function() {
 
             eventsHtml += "<div class='row'>";
               eventsHtml += "<div class='col-sm-4'> <p style='color: grey'>"
-                  + "Created by: " + singleEvent.val().userName
+                  + "Created on: " + singleEvent.val().date
                   + "</p></div>"
                   + "<div class='col-sm-3'> <p style='color: grey'>"
-                  + "Created at: " + singleEvent.val().time + " " + singleEvent.val().date
+                  + "Created at: " + singleEvent.val().time
                   + "</p></div>"
                   ;
             eventsHtml += "</div><br>";
@@ -34,7 +34,7 @@ $(document).ready(function() {
 
             eventsHtml += "<div class='row'>";
             eventsHtml += "<div class='col-sm-4'> <p style='color: grey'>"
-                + "Event Date: " + singleEvent.val().eventdate
+                + "Event Date: " + singleEvent.val().eventdate + singleEvent.val().userName
                 + "</p></div>"
                 + "<div class='col-sm-3'> <p style='color: grey'>"
                 + "Location: " + singleEvent.val().location

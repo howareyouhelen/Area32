@@ -121,7 +121,7 @@ $(document).ready(function() {
                         "location": location,
                         "uid": user.uid,
                         "counter": 1000 - counter,
-                        "userName": userName,
+                        "userName": user.name,
                         "time": time.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', hour12: true}),
                         "date":time.toLocaleString('en-US', options),
                     };
