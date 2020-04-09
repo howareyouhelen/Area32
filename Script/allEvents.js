@@ -6,15 +6,15 @@ $(document).ready(function() {
       var eventsHtml = "";
       events.forEach(function(singleEvent){
         counter += 1;
-        eventsHtml += "<div class='jumbotron bg-light text-dark border border-dark'>";
+        eventsHtml += "<div id='event-holder' class='jumbotron bg-light text-dark border border-dark'>";
 
-            eventsHtml += "<div style='text-align: justify; color: black;'> ";
+            eventsHtml += "<div style='text-align: center; color: black;'> ";
             eventsHtml += "<h4>" 
                             + singleEvent.val().eventname
                             + "</h4>" 
             eventsHtml += "</div><br>";
 
-            eventsHtml += "<div> <img width='800' height='440' src='";
+            eventsHtml += "<div style='text-align:center'> <img width='800' height='440' src='";
               eventsHtml += singleEvent.val().image;
             eventsHtml += "'/></div><br>";
 
@@ -28,7 +28,7 @@ $(document).ready(function() {
                   ;
             eventsHtml += "</div><br>";
             
-            eventsHtml += "<div style='text-align: justify; color: black;'> ";
+            eventsHtml += "<div style='text-align: left; color: black;'> ";
               eventsHtml += "<h6>Description: </h6>" + singleEvent.val().desc;
             eventsHtml += "</div><br>";
 

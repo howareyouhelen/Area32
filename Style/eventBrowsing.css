@@ -1,0 +1,20 @@
+#event-holder{
+  text-align: center;
+  align-content: center;
+}
+#events{
+  background-color: #900C3F;
+}
+
+body {
+  background-color: #900C3F;
+}
+
+img {
+  border-radius: 8px;
+  text-align: center;
+}
+
+div {
+  text-align: left;
+}
