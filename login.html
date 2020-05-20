@@ -125,7 +125,7 @@
           },
           // Will use popup for IDP Providers sign-in flow instead of the default, redirect.
           signInFlow: 'popup',
-          signInSuccessUrl: 'main.html',
+          signInSuccessUrl: 'mainPage.html',
           signInOptions: [
               // Leave the lines as is for the providers you want to offer your users.
               //firebase.auth.GoogleAuthProvider.PROVIDER_ID,
@@ -145,6 +145,6 @@
       // Inject the login interface into the HTML
       ui.start('#firebaseui-auth-container', uiConfig);
   </script>
-    <img id="jhonny" src="images/floorillz.jpg" alt="" style="bottom: 200px;">
+    <img id="jhonny"  alt="" style="background-image: url('images/floorillz.jpg');">
 </body>
 </html>     

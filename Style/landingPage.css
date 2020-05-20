@@ -23,14 +23,14 @@
   /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
-  border: 3px solid #f1f1f1;
+  border: 0.2vh solid #f1f1f1;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -45%);
   z-index: 2;
   width: 80%;
-  padding: 10px;
+  padding: 2vh;
   text-align: center;
 }
 
@@ -47,15 +47,30 @@
   position: relative;
   background-color: white;
   left: 50%;
-  width: 320px;
-  height: 350px;
+  width: 35vw;
+  height: 50vh;
 }
 
 
 
 .catogary {
   position: relative;
-  height: 250px;
-  width: 400px;
+  height: 25vh;
+  width: 50vh;
   padding-bottom: 10px;
+}
+
+#navTop {
+  background-color: #581845;
+  color: #ffc300;
+}
+
+.navText{
+  color: #ffc300;
+  margin-right: 2vh;
+  margin-left: 2vh;
+  font-size: large;
+  border-radius: 0.5vh;
+  padding: 1.5vh;
+  background-color: #C70039;
 }
